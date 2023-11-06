@@ -1,0 +1,91 @@
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 67%;
+    margin-top: 0;
+}
+#chicken{
+    background-color: rosybrown;
+}
+#beef{
+    background-color: orangered;
+}
+#sushi{
+    background-color: yellow;
+
+}
+
+#cont1{
+    float: left;
+    background-color: grey;
+}
+#cont2{
+    float: left;
+    background-color: grey;
+}
+#cont3{
+    float: left;
+    background-color: grey;
+}
+
+@media ( min-width : 992px ){
+    
+    #cont1{
+        width: 30%;
+        margin-left: 30px; 
+    }
+    #cont2{
+        width: 30%;
+        margin-left: 30px;
+        
+    }
+    #cont3{
+        width: 30%;
+        margin-left: 30px;
+    }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    #cont1{
+        width: 45%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+    #cont2{
+        width: 45%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        
+    }
+    #count3{
+        float: left;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    #cont1{
+        width: 100%;
+        
+        margin-bottom: 20px;
+        
+    }
+    #cont2{
+        width: 100%;
+       
+        margin-bottom: 20px;
+        
+    }
+    #count3{
+        
+        width: 100%;
+    }
+}
