@@ -73,19 +73,22 @@ h3{
 }
 @media (max-width: 767px){
     #cont1{
-        width: 100%;
-        
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
         
     }
     #cont2{
-        width: 100%;
-       
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
         
     }
     #count3{
-        
-        width: 100%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
